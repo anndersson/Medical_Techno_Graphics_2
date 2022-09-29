@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (max-width:37.5rem){ 
+     .parrafo{
+    align-self: flex-start;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 152%;
+    text-align: left;
+    max-width: 80%;
+     }
+
+     .barragris{
+        width: 100%;
+        height: 9rem;
+        background-color:#D6D6D6;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    color: #202020;
+    }
+    
+    .logo{
+        width: 5rem;
+        margin: 1rem;
+        
+    }
+    
+    .titulogeneral{
+    margin-top: 5rem;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #202020;
+    }
+    
+    
+    .parrafo{
+        width: -5rem;
+        margin-left: 2rem;
+        align-self: flex-start;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 152%;
+        text-align: left;
+        display: flex;
+    }
+    
+    .frutas{
+        margin-left: 5rem;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;                                                                    
+        height: auto;
+    }
+    
+    .caja_amarilla{
+        margin-top: 5rem;
+        background-color: #FF9A00;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .grafica{
+        margin-left: 8rem;
+        margin: 3rem;
+        width: 40%;
+        margin: 0 auto;
+        width: 45%;
+    
+    }
+    
+    .piramide{
+        width: 63rem;
+        border-radius: 5%;
+        margin-top: 5rem;
+        margin: 5rem; 
+    
+        width: 40%;
+        margin: 0 auto;
+    
+        width: 45%;
+    
+    }
+    
+    .elipse{
+    width: 25rem;
+    margin-top: 2rem;
+    }
+    
+    .circulos{
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;                                                                    
+        height: auto;
+    }
+    .circulos01{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;                                                                    
+        height: auto;
+    }
+    .palabra{
+        display: flex;
+        font-family: 'Comfortaa';
+        text-decoration: none;
+        color:#fff;
+        align-items: center;
+        width: 8rem;
+        height: 4rem;
+        background-color: #3EC1D3;
+        border-radius: 5%;
+        text-align: center;
+        margin-top: 4rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;   
+        margin-bottom: 5rem;                                                                
+    }
+    
+    .cuadros{
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;                                                                    
+        height: auto;
+    }
+    
+    .barrafinal{
+        width: 100%;
+        height: 15rem;
+        background-color:#D6D6D6;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        vertical-align: bottom;
+        bottom: 0;
+    }
+    
+    .escudo{
+    right: 0;
+    
+    margin-left: 140rem;
+    margin-top: 2.5rem;
+    }
+    
+    .nombres{
+        margin: 4rem;
+        justify-content: flex-start;
+        text-align: right;
+        font-family: 'Comfortaa';
+        margin-top: 3rem;
+        color: #202020;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nombres2{
+        margin: 5rem;
+        justify-content: flex-start;
+       font-family: 'Comfortaa';
+       margin-top: 5rem;
+       color: #202020;
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .subtitulo{
+        margin-right: 130rem;
+        left: 0;
+        margin-top: 3rem;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 19px;
+        text-align: center;
+        color: #202020;
+    }
+    
+    .listado{
+        left: 0;
+        position: absolute;
+        align-items: flex-start;
+        align-self: initial;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+    }
+    .telefono_configuracion{
+        width: 5rem;
+    }
+    .imagen_frutas{
+    
+        width: 50%;
+        margin: 0 auto;
+        position: absolute;
+        margin-left: 55%;
+        width: 40%;
+    }
+    
+    .listado2{
+        display: flex;
+        flex-direction: row;
+        width: 70rem;
+    }
+    
+}
+
+@media screen and (max-width:136.6rem){ 
+    
+}
+
+@media screen and (max-width:192rem){ 
+    
+}

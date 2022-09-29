@@ -1,0 +1,26 @@
+/*.Alimentos{
+    margin-top: 10rem;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 2.5rem;
+}
+
+
+
+.alimentos2{
+    width: 30rem;
+}
+
+.alimentos3{
+    width: 29rem;
+}
+
+.prot{
+    margin-top: 3rem;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+*/ 
