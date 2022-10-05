@@ -172,7 +172,6 @@ margin-top: 2.5rem;
 .nombres2{
     margin: 5rem;
     justify-content: flex-start;
-   font-family: 'Comfortaa';
    margin-top: 5rem;
    color: #202020;
    display: flex;
@@ -197,9 +196,9 @@ margin-top: 2.5rem;
     position: absolute;
     align-items: flex-start;
     align-self: initial;
-    width: 70%;
+    width: 45%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:flex-start;
 }
 .telefono_configuracion{
@@ -214,7 +213,37 @@ margin-top: 2.5rem;
 }
 
 .listado2{
+    justify-content: space-around;
+    background-color: #3EC1D3;
     display: flex;
     flex-direction: row;
-    width: 70rem;
+    width: 100rem;
+}
+
+.lupa{
+    width: 2.5rem;
+    height:auto;
+    align-self: initial;
+    margin-left: 70.5rem;
+    position: absolute;
+}
+
+.buscador{
+    width: 90%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    height: 3rem;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-weight: 300;
+}
+
+.busca{
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }

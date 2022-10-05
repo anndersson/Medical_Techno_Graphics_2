@@ -1,9 +1,12 @@
+import { alimentos } from "../data/data_lipidos";
+export function elementos_lipidos(elemento){
+let contenido = 
+'+<div class="alimento">'+
+'+<img src="'+alimentos[elemento].img+'">'+
+'+<div>'+
+    '+<span>'+alimentos[elemento].descripcion+'</span>'+
+'+</div>'+
+'+</div>'
+return contenido
+};
 
-export let elementos_lipidos = `
-<div class="alimento">
-<img src="img/Ellipse 9.png" alt="">
-<div>
-    <span>Aguacate - 1.9 de Proteína por 100g</span>
-</div>
-</div>
-`;

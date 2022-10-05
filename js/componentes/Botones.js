@@ -5,10 +5,7 @@ export let Botones = `
              <img class="elipse" src="img/Ellipse 1.png">
              <a class="palabra" href="./carbohidratos.html">Carbohidatros</a>
              </div>
-             <div class="circulos01">
-             <img class="elipse" src="img/Ellipse 2.png">
-              <a class="palabra" href="">Calorías</a>
-               </div>
+             
               <div class="circulos01">
               <img class="elipse" src="img/Ellipse 3.png">
               <a class="palabra" href="./proteina.html">Proteínas</a>
@@ -19,3 +16,8 @@ export let Botones = `
              </div>
              </div>
              `
+
+             /*<div class="circulos01">
+             <img class="elipse" src="img/Ellipse 2.png">
+              <a class="palabra" href="">Calorías</a>
+               </div>*/
