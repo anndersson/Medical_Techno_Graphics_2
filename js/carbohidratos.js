@@ -29,10 +29,112 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 </div>
 
 <h1 class="procesados"> Carbohidratos por Alimentos </h1>
-<div class="prot">
-<img class="lineasazules" src="img/carbo1.jpg">
-<img class="lineasazules" src="img/carbo2.jpg">
-<img class="lineasazules" src="img/carbo3.jpg">
+
+<div class="cuadroslipi"> 
+
+<div class="general">
+<div class="cuadro">
+<img src="./img/Hamburguesa.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+
+<div class="general">
+<div class="cuadro">
+<img src="./img/platosnegros.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/pescado.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/pollonaranja.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/frutas.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/brocoli.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
 </div>
 
 <footer id="footer">

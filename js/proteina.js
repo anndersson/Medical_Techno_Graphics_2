@@ -30,21 +30,121 @@ el cuerpo humano no es capaz de utilizar las proteínas ingeridas mediante la al
 
 
 <h1 class="Alimentos"> Proteinas por Alimentos </h1>
-<div class="prot">
-<img class="alimentos2" src="img/inasprote.jpg">
-<img class="alimentos3" src="img/inas.jpg">
+
+<div class="cuadroslipi"> 
+
+<div class="general">
+<div class="cuadro">
+<img src="./img/Hamburguesa.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
 </div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+
+<div class="general">
+<div class="cuadro">
+<img src="./img/platosnegros.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/pescado.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/pollonaranja.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/frutas.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+<div class="general">
+<div class="cuadro">
+<img src="img/brocoli.png"> 
+<h3 class="porcentajelipi"> Porcentajes de Proteinas</h3>
+</div>
+
+
+<div class="verde">
+<div class="amarillo">
+<h3> 10% </h3>
+<h3> 23% </h3>
+<h3> 15% </h3>
+</div>
+ <img class="barra" src="img/barras2.jpg">
+</div>
+</div>
+
+</div>
+
 
 <footer id="footer">
     ${footer}
 </footer>
 `;
 
-/*<div class="video">
-<video controls autoplay>
-<source src="img/VID-20220923-WA0013.mp4" type="video/mp4">
-</video>
-</div>*/ 
+
 
 
 // DOM

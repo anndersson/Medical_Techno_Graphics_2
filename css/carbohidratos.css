@@ -39,29 +39,63 @@
     border-radius: 15px;
 }
 
-
-@media screen and (max-width:37.5rem){
-
-    .procesados{
-        margin-top: 10rem;
-        text-align: center;
-        font-family: 'Comfortaa';
-        font-size: 2.5rem;
-    }
-    
-    .dat{
-        margin-top: -220px;
-        margin-left: 1400px;
-        height: 242px;
-        width: 571px;
-        border-radius: 0px;
-    }
-    
-    .sin{
-        margin-top: 20px;
-        text-align: center;
-        font-size: 40px;
-        font-family: Comfortaa;
-    }
-
-}
+.cuadroslipi{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+ }
+ 
+ .cuadroslipi .general{
+     border-radius: 3%;
+     /*margin-right: 30rem;*/
+     background-color: #3EC1D3;
+     width: 600px;
+     height: 398px;
+     margin-top: 3.5rem;
+ }
+ .barra{
+     width: 15rem;
+     height: 15rem;
+ }
+ 
+ .porcentajelipi{
+     color: #FFFFFF;
+     font-size: 30px;
+     font-family: Comfortaa;
+ }
+ 
+ .general{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .cuadro{
+     display: flex;
+     flex-direction:row;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .verde{
+     width: 80%;
+     display: flex;
+     flex-direction:row;
+     justify-content:space-between;
+     align-items: center;
+ }
+ 
+ .amarillo{
+     font-size: 2rem;
+     font-family:Comfortaa ;
+     color: #FFFFFF;
+     width: 50%;
+     display: flex;
+     flex-direction:row;
+     justify-content:space-between;
+     align-items: center;
+ }
