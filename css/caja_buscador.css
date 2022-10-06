@@ -1,0 +1,13 @@
+.cuadro_ocultar{
+    width: 300px;
+    height: 400px;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+.exit{
+    display: flex;
+    justify-content: end;
+}
