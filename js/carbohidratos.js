@@ -22,9 +22,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 
 <div class="video"> 
 <h1 class="texto-proteinas">¿QUE SON LOS CARBOHIDRATOS?</h1>
-<video controls autoplay>
-<source src="img/80E052D3-F6C3-4296-AD18-0030E2832F9C.mov" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1mhx0zDjlYySp5nlsJKenZHD8tj_VdlTQ/preview" width="640" height="480" allow="autoplay"></iframe>s
 </div>
 </div>
 
@@ -144,3 +142,40 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 
 let root = document.getElementById("root");
 root.innerHTML = estructura_carbohidratos;
+
+
+export function buscador(){
+    let caja_resultados = document.querySelector("#caja_resultados");
+
+    document.addEventListener("keyup", e=>{
+        if(e.target.matches("#buscador")){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?articulo.classList.remove("filtro")
+                :articulo.classList.add("filtro")
+            })
+        }
+        if(e.target.value == ""){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?articulo.classList.add("filtro")
+                :articulo.classList.add("filtro")
+            })
+        }
+        if(e.target.matches("#buscador")){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?caja_resultados.classList.remove("filtro")
+                :caja_resultados.classList.remove("filtro")
+            })
+        }
+        if(e.target.value == ""){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?caja_resultados.classList.add("filtro")
+                :caja_resultados.classList.add("filtro")
+            })
+        }
+    });
+}
+buscador();

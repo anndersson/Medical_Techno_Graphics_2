@@ -8,7 +8,18 @@ export let menu = `
  <div class="cuadro_ocultar">
     
     <div class="busca"> 
-    <input  class="buscador" type="text" placeholder="Encuentra un Alimento">
+    <input  class="buscador" id="buscador" type="text" placeholder="Encuentra un Alimento">
+    <div class="caja_resultados">
+    <ul> 
+        <li class="articulo filtro"> Hamburguesa</li>
+        <li class="articulo filtro"> Ensalada </li>
+        <li class="articulo filtro"> Pollo a la naranja</li>
+        <li class="articulo filtro"> Sushi</li>
+        <li class="articulo filtro"> Arroz Blanco</li>
+        <li class="articulo filtro"> Elote</li>
+        <li class="articulo filtro"> Cebolla</li>
+    </ul>
+    </div>
     </div>
  </div>
 

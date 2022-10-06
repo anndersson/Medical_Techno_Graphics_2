@@ -23,9 +23,7 @@ el cuerpo humano no es capaz de utilizar las proteínas ingeridas mediante la al
 
 <div class="video">
 <h1 class="texto-proteinas">¿QUE SON LAS PROTEINAS?</h1>
-<video controls autoplay>
-<source src="img/VID-20220923-WA0013.mp4" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1mhx0zDjlYySp5nlsJKenZHD8tj_VdlTQ/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 
@@ -145,6 +143,41 @@ el cuerpo humano no es capaz de utilizar las proteínas ingeridas mediante la al
 `;
 
 
+export function buscador(){
+    let caja_resultados = document.querySelector("#caja_resultados");
+
+    document.addEventListener("keyup", e=>{
+        if(e.target.matches("#buscador")){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?articulo.classList.remove("filtro")
+                :articulo.classList.add("filtro")
+            })
+        }
+        if(e.target.value == ""){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?articulo.classList.add("filtro")
+                :articulo.classList.add("filtro")
+            })
+        }
+        if(e.target.matches("#buscador")){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?caja_resultados.classList.remove("filtro")
+                :caja_resultados.classList.remove("filtro")
+            })
+        }
+        if(e.target.value == ""){
+            document.querySelectorAll(".articulo").forEach(articulo => {
+                articulo.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?caja_resultados.classList.add("filtro")
+                :caja_resultados.classList.add("filtro")
+            })
+        }
+    });
+}
+buscador();
 
 
 // DOM

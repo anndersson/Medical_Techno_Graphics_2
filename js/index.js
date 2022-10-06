@@ -30,3 +30,4 @@ ${Botones}
 // DOM
 let root = document.getElementById("root");
 root.innerHTML = estructura_index;
+

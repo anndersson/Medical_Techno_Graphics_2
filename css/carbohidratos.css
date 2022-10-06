@@ -80,6 +80,9 @@
      justify-content: space-around;
      align-items: center;
  }
+ .filtro{
+    display: none;
+}
  
  .verde{
      width: 80%;
@@ -98,4 +101,14 @@
      flex-direction:row;
      justify-content:space-between;
      align-items: center;
+ }
+ .articulo{
+    list-style: none;
+    font-weight: 800;
+    border-radius: 5px;
+    border: solid black;
+    margin-top: 2px;
+    background-color: #3EC1D3;
+    padding: 2px;
+
  }
