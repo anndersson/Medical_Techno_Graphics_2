@@ -35,7 +35,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="./img/Hamburguesa.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de carbohidratos</h3>
 </div>
 
 
@@ -53,7 +53,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="./img/platosnegros.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de carbohidratos</h3>
 </div>
 
 
@@ -70,7 +70,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="img/pescado.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de carbohidratos</h3>
 </div>
 
 
@@ -87,7 +87,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="img/pollonaranja.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de carbohidratos</h3>
 </div>
 
 
@@ -104,7 +104,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="img/frutas.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de Carbohidratos</h3>
 </div>
 
 
@@ -121,7 +121,7 @@ En su forma más básica, los carbohidratos están hechos de bloques de construc
 <div class="general">
 <div class="cuadro">
 <img src="img/brocoli.png"> 
-<h3 class="porcentajelipi"> Porcentajes de Lipidos</h3>
+<h3 class="porcentajelipi"> Porcentajes de Carbohdratos</h3>
 </div>
 
 
